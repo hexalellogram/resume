@@ -1,0 +1,55 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+%test
+% Configure page margins with geometry
+\geometry{left=1.2cm, top=.8cm, right=1.2cm, bottom=0.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% print black colors defined in print_config.tex
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% \input {resources/info_ucsd.tex}  
+\input {resources/info_personal.tex}
+
+% Reimplementations of functions defined in awesome-cv.cls
+
+% make first and last name text the same
+\renewcommand{\headerfirstnamestyle}[1]{{\fontsize{20pt}{1em}\headerfontlight\color{text} #1}}
+\renewcommand{\headerlastnamestyle}[1]{{\fontsize{20pt}{1em}\headerfont\bfseries\color{text} #1}}
+
+% make header section text smaller (sizes down to 14 work well, but sticking with 16 for now)
+\renewcommand{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text} #1}}
+
+% make breaks between sections smaller
+\renewcommand{\acvSectionTopSkip}{-1mm}
+\renewcommand{\acvSectionContentTopSkip}{1mm}
+
+% make locations black
+\renewcommand{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{text} #1}}
+
+% larger social media/contact font
+\renewcommand{\headersocialstyle}[1]{{\fontsize{9pt}{1em}\headerfont\color{text} #1}}
+
+
+

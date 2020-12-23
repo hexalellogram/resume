@@ -1,3 +1,7 @@
+# Bryce Tsuyuki's Resume
+
+This resume is based off of the original Awesome-CV template found [here](https://github.com/posquit0/Awesome-CV). The original README follows below. All credit to the orignal authors, but I have made a few modifications to make this resume more tailored to my preferences (i.e. no color, reduced spacing, different bolding for the name at the top).
+
 <h1 align="center">
   <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
     <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
